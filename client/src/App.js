@@ -57,11 +57,11 @@ function App() {
           </form>
         </div>
         <div className="col-md-1"></div>
-        <div className="div col-md-5 card transparent-custom">
-          <div className="card-body">
+        <div className="div col-md-5 card transparent-custom border-0">
+          <div className="card-body text-white d-flex flex-column justify-content-center">
             <blockquote className="blockquote mb-0">
               <p>Nobody will ever deprive the American people of the right to vote except the American people themselves and the only way they could do this is by not voting.</p>
-              <footer className="blockquote-footer">Franklin D. Roosevelt</footer>
+              <footer className="blockquote-footer text-white">Franklin D. Roosevelt</footer>
             </blockquote>
           </div>
         </div>

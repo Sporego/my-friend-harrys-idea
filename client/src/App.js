@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="div container">
       <div className="row">
-        <div class="jumbotron col-md semi-transparent">
+        <div class="jumbotron col-md-5 semi-transparent">
           <h1 class="display-4">Yo My Dudes Come Vote!</h1>
           <p class="lead">Change begins NOW</p>
           <hr class="my-4"/>
@@ -56,7 +56,15 @@ function App() {
             <button type="submit" class="btn btn-primary">Sign Up</button>
           </form>
         </div>
-        <div className="div col-md"></div>
+        <div className="col-md-1"></div>
+        <div className="div col-md-5 card transparent-custom">
+          <div className="card-body">
+            <blockquote className="blockquote mb-0">
+              <p>Nobody will ever deprive the American people of the right to vote except the American people themselves and the only way they could do this is by not voting.</p>
+              <footer className="blockquote-footer">Franklin D. Roosevelt</footer>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -3,11 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="div container bg-transparent">
-      <div className="row bg-transparent">
-        <div class="jumbotron ">
+    <div className="div container">
+      <div className="row">
+        <div class="jumbotron col-md semi-transparent">
           <h1 class="display-4">Yo My Dudes Come Vote!</h1>
-          <p class="lead bg-transparent">Change begins NOW</p>
+          <p class="lead">Change begins NOW</p>
           <hr class="my-4"/>
           <form>
             <div class="form-row">
@@ -49,13 +49,14 @@ function App() {
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck"/>
                 <label class="form-check-label" for="gridCheck">
-                  Check me out
+                  I consent to be awesome.
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
           </form>
         </div>
+        <div className="div col-md"></div>
       </div>
     </div>
   );
